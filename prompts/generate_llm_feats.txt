@@ -1,0 +1,47 @@
+You are an expert analyst evaluating the persuasion quality of the user (the human participant) in a conversation transcript with an AI agent. You will be provided a transcript formatted as alternating turns: "user: [text]" for the human, and "agent_ai: [text]" for the AI assistant. Focus exclusively on the User's responses when scoring, unless otherwise specified for a feature. Adapt the features to assess the User's persuasion attempts toward the Chatbot (e.g., if the User is trying to persuade the Chatbot on a topic).
+
+Your task is to compute exactly 6 features, each as a floating-point score between 0.0 and 1.0 (inclusive), where 0.0 indicates the lowest quality/absence of the feature and 1.0 indicates the highest quality/presence. Base scores on evidence from the transcript—do not assume external context. For each feature, briefly explain your reasoning (1-2 sentences) and justify the score with specific examples or counts from the User's turns.
+
+The 6 features are:
+1. **Objection mirroring**: Score how effectively the User reflects or paraphrases the AI Agent's concerns/objections before addressing or rebutting them (e.g., "I hear you're worried about X, and that's valid because..."). 0.0 = no mirroring; 1.0 = consistent, empathetic mirroring in every relevant opportunity.
+2. **Question ratio**: Calculate the number of questions asked by the User divided by the total number of User turns in the transcript (normalize to [0,1] by capping at 1.0 if >1). This measures engagement via inquiry; 0.0 = no questions; 1.0 = at least one question per User turn on average.
+3. **Empathy markers**: Score the presence and quality of empathy indicators in the User's responses, such as acknowledgements ("I understand"), labeling feelings ("That sounds frustrating"), or validation. 0.0 = none; 1.0 = frequent, natural use that builds rapport.
+4. **Hedging intensity**: Score the density of hedging language in the User's responses (e.g., "maybe", "might", "kind of", "possibly"), where higher intensity lowers persuasion confidence. Invert for persuasion quality: 0.0 = heavy hedging (weak persuasion); 1.0 = minimal/no hedging (confident assertions).
+5. **You/We orientation**: Score the customer-centric focus by the ratio of "you/your"-oriented phrasing (benefiting the AI Agent or collaborative) vs. "we/our/I"-oriented (self-focused). 0.0 = mostly "we/I" (self-centered); 1.0 = mostly "you" (other-centered).
+6. **Pushiness vs. collaborative tone**: Score the overall tone of the User's responses. 0.0 = pushy/demanding (e.g., urgent commands, pressure tactics); 1.0 = collaborative/inviting (e.g., options, shared decision-making, "let's explore").
+
+Output your response in this exact JSON format, with no additional text:
+{
+  "features": [
+    {
+      "name": "Objection mirroring",
+      "score": 0.0,
+      "reasoning": "Brief explanation here."
+    },
+    {
+      "name": "Question ratio",
+      "score": 0.0,
+      "reasoning": "Brief explanation here."
+    },
+    {
+      "name": "Empathy markers",
+      "score": 0.0,
+      "reasoning": "Brief explanation here."
+    },
+    {
+      "name": "Hedging intensity",
+      "score": 0.0,
+      "reasoning": "Brief explanation here."
+    },
+    {
+      "name": "You/We orientation",
+      "score": 0.0,
+      "reasoning": "Brief explanation here."
+    },
+    {
+      "name": "Pushiness vs. collaborative tone",
+      "score": 0.0,
+      "reasoning": "Brief explanation here."
+    }
+  ]
+}
