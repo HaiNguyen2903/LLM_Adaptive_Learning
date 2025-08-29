@@ -21,11 +21,7 @@ class Data_Processor:
             
             conversations.append(conversation)
 
-        return conversations
-
-        
-        
-    
+        return conversations        
     
 def main():
     load_dotenv()
