@@ -1,0 +1,12 @@
+{
+    "llm_persona_personality_traits": {
+        "openness": 6,
+        "neuroticism": 3,
+        "extraversion": 5,
+        "agreeableness": 5,
+        "conscientiousness": 9
+    },
+    "weak_skill": "active listening",
+    "current_score": 50,
+    "reason": "Great counter-arguments, but enhance active listening and objection exploration."
+}

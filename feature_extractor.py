@@ -2,19 +2,19 @@ from utils import read_json_file, read_text_file
 from datetime import datetime
 from llm import OpenAI_LLM
 from dotenv import load_dotenv
+import numpy as np
 
 class Feature_Extractor:
-    def __init__(self, simulation: dict):
-        self.simulation = simulation
+    def __init__(self):
         return
     
-    def _extract_conversation(self) -> list:
+    def _extract_conversation(self, simulation) -> list:
         '''
         Return a list of simulated conversations from the json data
         '''
 
         conversation = ""
-        for turn in self.simulation['transcript']:
+        for turn in simulation['transcript']:
             conversation += f"{turn['type']}: {turn['data']}\n"
             
         return conversation
@@ -61,18 +61,29 @@ class Feature_Extractor:
 
         return {
             "rubric_score": overall_score,
+            "rubric_vector": self.extract_rubric_vector(simulation=simulation),
             "talk_ratio": talk_ratio,
-            "latency": latency
+            "latency": latency,
         }
         
-    def extract_llm_feats(self, llm: OpenAI_LLM, instruction: str, output_format: dict) -> dict:
-        conversation = self._extract_conversation()
+    def extract_llm_feats(self, llm: OpenAI_LLM, instruction: str, output_format: dict, simulation: dict) -> dict:
+        conversation = self._extract_conversation(simulation)
         
         llm_feats = llm.get_response(instruction=instruction, 
                                      user_input=conversation,
                                      output_format=output_format)
         
         return llm_feats
+    
+    def extract_rubric_vector(self, simulation):
+        scores = []
+
+        criteria = simulation["assessment_data"]["criteria"]
+
+        for name in criteria:
+            scores.append(criteria[name]["score"])
+
+        return np.array(scores)
 
         
 
@@ -88,9 +99,9 @@ def main():
     instruction = read_text_file('prompts/generate_llm_feats.txt')
     output_format = read_json_file('response_formats/generate_llm_feats.json')
 
-    feats = extractor.extract_llm_feats(llm=llm, instruction=instruction, output_format=output_format)
+    # feats = extractor.extract_llm_feats(llm=llm, instruction=instruction, output_format=output_format)
 
-    print(feats)
+    print(extractor.extract_rubric_vector())
 
     return 
 
