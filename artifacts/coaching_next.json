@@ -1,0 +1,56 @@
+{
+    "0": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and enthusiasm."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 6,
+                "neuroticism": 6,
+                "extraversion": 4,
+                "agreeableness": 4,
+                "conscientiousness": 9
+            },
+            "openning": "Hey there! I really think you should consider this amazing opportunity I found. Let me tell you about it!",
+            "follow-ups": [
+                "What do you think would be the best way for you to get started with this?",
+                "If you were to take action today, what would be your first step?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time constraint, where you have to deliver your call to action in under 30 seconds.",
+            "Add a requirement to tailor your call to action for different audience types, such as a younger demographic versus a professional audience."
+        ]
+    },
+    "1": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and enthusiasm."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 6,
+                "neuroticism": 6,
+                "extraversion": 4,
+                "agreeableness": 4,
+                "conscientiousness": 9
+            },
+            "openning": "Hey there! I really think you should consider this amazing opportunity I found. Let me tell you about it!",
+            "follow-ups": [
+                "What do you think would happen if you missed out on this?",
+                "Imagine how much better your life could be if you took this step right now!"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.",
+            "Add a requirement to use persuasive language techniques, such as urgency or exclusivity, in your calls to action."
+        ]
+    }
+}

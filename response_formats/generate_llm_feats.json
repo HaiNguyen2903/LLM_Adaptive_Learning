@@ -3,49 +3,49 @@
     "json_schema": {
         "name": "generate_llm_feats_response",
         "schema": {
-            "type": "object",
-            "properties": {
-                "features": {
-                "type": "array",
-                "minItems": 6,
-                "maxItems": 6,
-                "items": {
-                    "type": "object",
-                    "properties": {
-                    "name": {
-                        "type": "string",
-                        "enum": [
-                        "Objection mirroring",
-                        "Question ratio",
-                        "Empathy markers",
-                        "Hedging intensity",
-                        "You/We orientation",
-                        "Pushiness vs. collaborative tone"
-                        ],
-                        "description": "The name of the persuasion quality feature, exactly matching one of the specified options."
+                "type": "object",
+                "properties": {
+                  "features": {
+                    "type": "array",
+                    "minItems": 6,
+                    "maxItems": 6,
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "enum": [
+                            "Objection mirroring",
+                            "Question ratio",
+                            "Empathy markers",
+                            "Hedging intensity",
+                            "You/We orientation",
+                            "Pushiness vs. collaborative tone"
+                          ],
+                          "description": "The name of the persuasion quality feature, exactly matching one of the specified options."
+                        },
+                        "score": {
+                          "type": "number",
+                          "minimum": 0.0,
+                          "maximum": 1.0,
+                          "description": "A floating-point score between 0.0 and 1.0 (inclusive) representing the quality or presence of the feature."
+                        },
+                        "reasoning": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 200,
+                          "description": "A brief explanation (1-2 sentences) justifying the score, based on evidence from the user's responses in the transcript."
+                        }
+                      },
+                      "required": ["name", "score", "reasoning"],
+                      "additionalProperties": false
                     },
-                    "score": {
-                        "type": "number",
-                        "minimum": 0.0,
-                        "maximum": 1.0,
-                        "description": "A floating-point score between 0.0 and 1.0 (inclusive) representing the quality or presence of the feature."
-                    },
-                    "reasoning": {
-                        "type": "string",
-                        "minLength": 1,
-                        "maxLength": 200,
-                        "description": "A brief explanation (1-2 sentences) justifying the score, based on evidence from the user's responses in the transcript."
-                    }
-                    },
-                    "required": ["name", "score", "reasoning"],
-                    "additionalProperties": false
+                    "description": "An array of exactly 6 objects, each representing a persuasion quality feature with its name, score, and reasoning."
+                  }
                 },
-                "description": "An array of exactly 6 objects, each representing a persuasion quality feature with its name, score, and reasoning."
-                }
-            },
-            "required": ["features"],
-            "additionalProperties": false,
-            "description": "Schema for evaluating persuasion quality of a user's responses in a conversation transcript, with 6 specific features."
+                "required": ["features"],
+                "additionalProperties": false,
+                "description": "Schema for evaluating persuasion quality of a user's responses in a conversation transcript, with 6 specific features."
         },
         "strict": true
     }

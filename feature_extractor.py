@@ -39,7 +39,6 @@ class Feature_Extractor:
     def extract_baseline_feats(self, simulation):
         # overall score
         overall_score = simulation["assessment_data"]["overall"]["score"]
-        print(overall_score)
 
         # talk ratio
         transcript = simulation['transcript']
@@ -59,12 +58,20 @@ class Feature_Extractor:
 
         latency = sum(latencies) / len(latencies)
 
-        return {
+        skill_scores = self.extract_skill_scores(simulation)
+
+        feats = {
             "rubric_score": overall_score,
-            "rubric_vector": self.extract_rubric_vector(simulation=simulation),
             "talk_ratio": talk_ratio,
-            "latency": latency,
+            "latency": latency
         }
+
+        for skill in skill_scores:
+            feats[skill] = skill_scores[skill]
+
+        return feats
+
+        
         
     def extract_llm_feats(self, llm: OpenAI_LLM, instruction: str, output_format: dict, simulation: dict) -> dict:
         conversation = self._extract_conversation(simulation)
@@ -75,15 +82,15 @@ class Feature_Extractor:
         
         return llm_feats
     
-    def extract_rubric_vector(self, simulation: dict) -> np.array:
-        scores = []
+    def extract_skill_scores(self, simulation: dict) -> np.array:
+        scores = {}
 
         criteria = simulation["assessment_data"]["criteria"]
 
         for name in criteria:
-            scores.append(criteria[name]["score"])
+            scores[name] = criteria[name]["score"]
 
-        return np.array(scores)
+        return scores
 
         
 
@@ -101,7 +108,7 @@ def main():
 
     # feats = extractor.extract_llm_feats(llm=llm, instruction=instruction, output_format=output_format)
 
-    print(extractor._extract_conversation(data[1]))
+    print(extractor.extract_baseline_feats(data[1]))
 
     return 
 
