@@ -8,10 +8,13 @@ class AdaptiveCoacher:
     
     def generate_coaching_plan(self, llm: OpenAI_LLM, instruction: str, user_input: dict, 
                                output_format: dict) -> dict:
-        coach_plan = llm.get_response(instruction=instruction, user_input=user_input,
+        response = llm.get_response(instruction=instruction, user_input=user_input,
                                       output_format=output_format)
         
-        return coach_plan
+        coach_plan = response["response"]
+        token_counts = response["token_counts"]
+        
+        return coach_plan, token_counts
     
 
 def main():

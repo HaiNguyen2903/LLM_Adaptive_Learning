@@ -3,18 +3,17 @@ from utils import read_json_file, read_text_file
 from dotenv import load_dotenv
 import os
 import os.path as osp
-from data_processer import Data_Processor
 from feature_extractor import Feature_Extractor
 from adaptive_policy import TSAdapter, Baseline_Policy
 from adaptive_coach import AdaptiveCoacher
 import numpy as np
 import json
 import logging
-from IPython import embed
 import pandas as pd
-from sklearn.model_selection import LeaveOneOut
+from sklearn.model_selection import TimeSeriesSplit
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
+from collections import defaultdict
 
 # Custom formatter for structured log output
 class CustomFormatter(logging.Formatter):
@@ -113,11 +112,13 @@ def predict_and_evaluate(df_features, delta_overall_scores):
     X = df_features
     y = np.array(delta_overall_scores)
 
-    loo = LeaveOneOut()
+    # split 19 times
+    tscv = TimeSeriesSplit(n_splits=len(y)-1)
+
     y_true = []
     y_pred = []
 
-    for train_index, test_index in loo.split(X):
+    for train_index, test_index in tscv.split(X):
         X_train, X_test = X.iloc[train_index], X.iloc[test_index]
         y_train, y_test = y[train_index], y[test_index]
         model = RandomForestRegressor(random_state=42)
@@ -136,6 +137,9 @@ def main():
 
     # init logger
     logger = setup_logging(logger_name="", log_level=logging.INFO, log_file="app.log")
+    
+    # Disable propagation for httpx logger
+    logging.getLogger("httpx").propagate = False
 
     '''
     Init env vars
@@ -151,6 +155,7 @@ def main():
     data = read_json_file(osp.join(DATA_DIR, 'sanitized-sample.json'))
     
     feature_extractor = Feature_Extractor()
+    adaptive_coacher = AdaptiveCoacher()
     
     llm = OpenAI_LLM()
 
@@ -201,6 +206,7 @@ def main():
     all_features = []
     coaching_next = {}
     delta_overall_scores = []
+    token_counts = defaultdict(dict)
 
     
     '''
@@ -209,7 +215,8 @@ def main():
 
     prev_overall_score = 0
 
-    for t, simulation in enumerate(data[:2]):
+    for t, simulation in enumerate(data):
+        print(f'Processing simulation {t}...')
         '''
         Run Thompson Sampling
         '''
@@ -219,9 +226,11 @@ def main():
         baseline_context = np.hstack([baseline_feats[feat] for feat in baseline_feats if feat in used_baseline_features])
 
         # calculate llm features and addition llm context (baseline + LLM)
-        llm_feats = feature_extractor.extract_llm_feats(simulation=simulation, llm=llm,
-                                                        instruction=llm_feat_prompt, 
-                                                        output_format=llm_feat_format)
+        llm_feats, llm_feats_token_counts = feature_extractor.extract_llm_feats(simulation=simulation, llm=llm,
+                                                                        instruction=llm_feat_prompt, 
+                                                                        output_format=llm_feat_format)
+        
+        token_counts[t]["generate_llm_feats"] = llm_feats_token_counts
         
         # save output
         session_feats = {
@@ -271,9 +280,13 @@ def main():
             "current_score": baseline_feats[weak_skill]
         }
 
-        coach_plan = llm.get_response(instruction=coach_plan_prompt,
-                                      user_input=str(input),
-                                      output_format=coach_plan_format)
+        coach_plan, coach_plan_token_counts = adaptive_coacher.generate_coaching_plan(
+                                                                            llm=llm,
+                                                                            instruction=coach_plan_prompt,
+                                                                            user_input=str(input),
+                                                                            output_format=coach_plan_format)
+        
+        token_counts[t]["generate_coach_plan"] = coach_plan_token_counts
         
         coaching_next[t] = coach_plan
         
@@ -298,6 +311,9 @@ def main():
     with open(osp.join(ARTIFACT_DIR, 'coaching_next.json'), 'w') as f:
         json.dump(coaching_next, f)
 
+    with open(osp.join(ARTIFACT_DIR, 'token_counts.json'), 'w') as f:
+        json.dump(token_counts, f)
+
     """
     predict delta overall score and evaluate
     """
@@ -305,9 +321,6 @@ def main():
 
     r2_baseline = predict_and_evaluate(df_features=df_baseline_feats, delta_overall_scores=delta_overall_scores)
     r2_all_feats = predict_and_evaluate(df_features=df_all_feats, delta_overall_scores=delta_overall_scores)
-    
-
-    print(r2_all_feats, r2_baseline)
 
     logger.info(f"Ablation: Baseline: R2 = {r2_baseline}")
     logger.info(f"Ablation: With LLM Features: R2 = {r2_all_feats}")

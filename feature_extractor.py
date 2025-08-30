@@ -76,11 +76,14 @@ class Feature_Extractor:
     def extract_llm_feats(self, llm: OpenAI_LLM, instruction: str, output_format: dict, simulation: dict) -> dict:
         conversation = self._extract_conversation(simulation)
         
-        llm_feats = llm.get_response(instruction=instruction, 
+        response = llm.get_response(instruction=instruction, 
                                      user_input=conversation,
                                      output_format=output_format)
         
-        return llm_feats
+        llm_feats = response["response"]
+        token_counts = response["token_counts"]
+        
+        return llm_feats, token_counts
     
     def extract_skill_scores(self, simulation: dict) -> np.array:
         scores = {}
