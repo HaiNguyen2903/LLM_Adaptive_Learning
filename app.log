@@ -1,0 +1,116 @@
+2025-08-30 22:03:35 [INFO] root: Session: 1 | Step: 0
+2025-08-30 22:03:35 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:03:35 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:03:35 [INFO] root: Results: Baseline (weakest skill): Reward: 27.9 | % Delta Overall: 4125.0%
+2025-08-30 22:03:35 [INFO] root: Results: Thompson Sampling: Reward: 44.099999999999994 | % Delta Overall: 4125.0%
+
+2025-08-30 22:03:48 [INFO] root: Session: 2 | Step: 1
+2025-08-30 22:03:48 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:03:48 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:03:48 [INFO] root: Results: Baseline (weakest skill): Reward: 18.2 | % Delta Overall: 33.0%
+2025-08-30 22:03:48 [INFO] root: Results: Thompson Sampling: Reward: 9.2 | % Delta Overall: 33.0%
+
+2025-08-30 22:04:00 [INFO] root: Session: 3 | Step: 2
+2025-08-30 22:04:00 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:04:00 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:04:00 [INFO] root: Results: Baseline (weakest skill): Reward: 19.4 | % Delta Overall: 25.0%
+2025-08-30 22:04:00 [INFO] root: Results: Thompson Sampling: Reward: 20.0 | % Delta Overall: 25.0%
+
+2025-08-30 22:04:12 [INFO] root: Session: 4 | Step: 3
+2025-08-30 22:04:12 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:04:12 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:04:12 [INFO] root: Results: Baseline (weakest skill): Reward: -45.5 | % Delta Overall: -49.0%
+2025-08-30 22:04:12 [INFO] root: Results: Thompson Sampling: Reward: -11.900000000000002 | % Delta Overall: -49.0%
+
+2025-08-30 22:04:27 [INFO] root: Session: 5 | Step: 4
+2025-08-30 22:04:27 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:04:27 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:04:27 [INFO] root: Results: Baseline (weakest skill): Reward: 24.2 | % Delta Overall: 43.0%
+2025-08-30 22:04:27 [INFO] root: Results: Thompson Sampling: Reward: -1.5999999999999996 | % Delta Overall: 43.0%
+
+2025-08-30 22:04:39 [INFO] root: Session: 6 | Step: 5
+2025-08-30 22:04:39 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:04:39 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:04:39 [INFO] root: Results: Baseline (weakest skill): Reward: 12.2 | % Delta Overall: 16.0%
+2025-08-30 22:04:39 [INFO] root: Results: Thompson Sampling: Reward: -30.400000000000002 | % Delta Overall: 16.0%
+
+2025-08-30 22:04:50 [INFO] root: Session: 7 | Step: 6
+2025-08-30 22:04:50 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:04:50 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:04:50 [INFO] root: Results: Baseline (weakest skill): Reward: -12.399999999999999 | % Delta Overall: -7.000000000000001%
+2025-08-30 22:04:50 [INFO] root: Results: Thompson Sampling: Reward: 14.6 | % Delta Overall: -7.000000000000001%
+
+2025-08-30 22:05:05 [INFO] root: Session: 8 | Step: 7
+2025-08-30 22:05:05 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:05:05 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:05:05 [INFO] root: Results: Baseline (weakest skill): Reward: -33.9 | % Delta Overall: -80.0%
+2025-08-30 22:05:05 [INFO] root: Results: Thompson Sampling: Reward: -33.3 | % Delta Overall: -80.0%
+
+2025-08-30 22:05:20 [INFO] root: Session: 9 | Step: 8
+2025-08-30 22:05:20 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:05:20 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:05:20 [INFO] root: Results: Baseline (weakest skill): Reward: 2.1 | % Delta Overall: 47.0%
+2025-08-30 22:05:20 [INFO] root: Results: Thompson Sampling: Reward: 1.5 | % Delta Overall: 47.0%
+
+2025-08-30 22:05:35 [INFO] root: Session: 10 | Step: 9
+2025-08-30 22:05:35 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:05:35 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:05:35 [INFO] root: Results: Baseline (weakest skill): Reward: -2.2 | % Delta Overall: -33.0%
+2025-08-30 22:05:35 [INFO] root: Results: Thompson Sampling: Reward: -2.2 | % Delta Overall: -33.0%
+
+2025-08-30 22:05:46 [INFO] root: Session: 11 | Step: 10
+2025-08-30 22:05:46 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:05:46 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:05:46 [INFO] root: Results: Baseline (weakest skill): Reward: 3.5 | % Delta Overall: 80.0%
+2025-08-30 22:05:46 [INFO] root: Results: Thompson Sampling: Reward: 17.9 | % Delta Overall: 80.0%
+
+2025-08-30 22:06:00 [INFO] root: Session: 12 | Step: 11
+2025-08-30 22:06:00 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:06:00 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:06:00 [INFO] root: Results: Baseline (weakest skill): Reward: -1.1 | % Delta Overall: -14.000000000000002%
+2025-08-30 22:06:00 [INFO] root: Results: Thompson Sampling: Reward: -15.499999999999998 | % Delta Overall: -14.000000000000002%
+
+2025-08-30 22:06:12 [INFO] root: Session: 13 | Step: 12
+2025-08-30 22:06:12 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:06:12 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:06:12 [INFO] root: Results: Baseline (weakest skill): Reward: -2.4000000000000004 | % Delta Overall: -35.0%
+2025-08-30 22:06:12 [INFO] root: Results: Thompson Sampling: Reward: -2.4000000000000004 | % Delta Overall: -35.0%
+
+2025-08-30 22:06:23 [INFO] root: Session: 14 | Step: 13
+2025-08-30 22:06:23 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:06:23 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:06:23 [INFO] root: Results: Baseline (weakest skill): Reward: 0.0 | % Delta Overall: 0.0%
+2025-08-30 22:06:23 [INFO] root: Results: Thompson Sampling: Reward: 0.0 | % Delta Overall: 0.0%
+
+2025-08-30 22:06:33 [INFO] root: Session: 15 | Step: 14
+2025-08-30 22:06:33 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:06:33 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:06:33 [INFO] root: Results: Baseline (weakest skill): Reward: 27.7 | % Delta Overall: 302.0%
+2025-08-30 22:06:33 [INFO] root: Results: Thompson Sampling: Reward: 45.7 | % Delta Overall: 302.0%
+
+2025-08-30 22:06:44 [INFO] root: Session: 16 | Step: 15
+2025-08-30 22:06:44 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:06:44 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:06:44 [INFO] root: Results: Baseline (weakest skill): Reward: -22.099999999999998 | % Delta Overall: -44.0%
+2025-08-30 22:06:44 [INFO] root: Results: Thompson Sampling: Reward: -32.9 | % Delta Overall: -44.0%
+
+2025-08-30 22:06:55 [INFO] root: Session: 17 | Step: 16
+2025-08-30 22:06:55 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:06:55 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:06:55 [INFO] root: Results: Baseline (weakest skill): Reward: -3.9000000000000004 | % Delta Overall: -39.0%
+2025-08-30 22:06:55 [INFO] root: Results: Thompson Sampling: Reward: -10.5 | % Delta Overall: -39.0%
+
+2025-08-30 22:07:06 [INFO] root: Session: 18 | Step: 17
+2025-08-30 22:07:06 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:07:06 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:07:06 [INFO] root: Results: Baseline (weakest skill): Reward: 2.3000000000000003 | % Delta Overall: 38.0%
+2025-08-30 22:07:06 [INFO] root: Results: Thompson Sampling: Reward: 5.300000000000001 | % Delta Overall: 38.0%
+
+2025-08-30 22:07:20 [INFO] root: Session: 19 | Step: 18
+2025-08-30 22:07:20 [INFO] root: Features: Baseline: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone'] | LLM: ['Objection mirroring', 'Question ratio', 'Empathy markers', 'Hedging intensity', 'You/We orientation', 'Pushiness vs. collaborative tone']
+2025-08-30 22:07:20 [INFO] root: Policy: Thompson Sampling | Reward Function: 0.6*Δskill + 0.4*Δoverall
+2025-08-30 22:07:20 [INFO] root: Results: Baseline (weakest skill): Reward: -3.9000000000000004 | % Delta Overall: -46.0%
+2025-08-30 22:07:20 [INFO] root: Results: Thompson Sampling: Reward: -7.5 | % Delta Overall: -46.0%
+
+2025-08-30 22:07:21 [INFO] root: Ablation: Baseline: R2 = -0.6635897369381993
+2025-08-30 22:07:21 [INFO] root: Ablation: With LLM Features: R2 = -0.9107900372756657

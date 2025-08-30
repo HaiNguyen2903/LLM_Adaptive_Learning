@@ -1,1 +1,515 @@
-{"0": {"skill_focus": "friendliness and respectful tone", "reason": "Improving your friendliness and respectful tone is essential for building better relationships and fostering positive interactions with others.", "exercises": ["Practice using positive affirmations in your conversations. For example, start a sentence with 'I appreciate...' or 'I really value...'.", "Engage in a daily gratitude exercise where you express thanks to someone for something specific they did, even if it's small.", "Record yourself speaking on a topic for 2 minutes, focusing on using a warm and friendly tone, then listen back to identify areas for improvement."], "scenario_stub": {"persona": {"openness": 6, "neuroticism": 5, "extraversion": 4, "agreeableness": 5, "conscientiousness": 9}, "openning": "Hi there! I hope you're having a great day! What have you been up to lately?", "follow-ups": ["That's interesting! I really admire how you approached that situation. Can you tell me more about it?", "I appreciate your perspective on this. How do you feel about the challenges you've faced?"]}, "difficulty-upgrade": ["Incorporate a time limit for responses to encourage quick thinking while maintaining a friendly tone.", "Add a requirement to use at least one compliment or positive remark in every interaction."]}, "1": {"skill_focus": "friendliness and respectful tone", "reason": "Improving your friendliness and respectful tone is essential for building better relationships and fostering positive interactions with others.", "exercises": ["Practice using positive affirmations in conversations, such as 'That's a great point!' or 'I appreciate your perspective.'", "Engage in a daily gratitude exercise where you express appreciation for someone in your life, focusing on how to convey it warmly.", "Record yourself reading a friendly script and listen to it, paying attention to your tone and warmth."], "scenario_stub": {"persona": {"openness": 6, "neuroticism": 5, "extraversion": 4, "agreeableness": 5, "conscientiousness": 9}, "openning": "Hi there! I hope you're having a wonderful day!", "follow-ups": ["What do you think about this idea? I\u2019d love to hear your thoughts!", "I really value your opinion, could you share more about your perspective?"]}, "difficulty-upgrade": ["Incorporate humor into your responses to make them more engaging and friendly.", "Limit your responses to only positive or constructive feedback to encourage a respectful tone."]}, "2": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.", "exercises": ["Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.", "Write five different calls to action for a fictional product, varying the tone and urgency to see how it affects the message.", "Practice delivering a call to action in a mock presentation, focusing on clarity and persuasion."], "scenario_stub": {"persona": {"openness": 8, "neuroticism": 3, "extraversion": 9, "agreeableness": 8, "conscientiousness": 6}, "openning": "Hey there! I just came across this amazing product that I think could really change your life. Have you heard about it?", "follow-ups": ["What do you think would be the best way to encourage someone to try it out?", "If you were to convince a friend to buy it, what would you say to make it irresistible?"]}, "difficulty-upgrade": ["Incorporate a time limit for delivering your call to action to simulate real-life pressure.", "Add a requirement to include a specific benefit or statistic in your call to action to enhance its persuasive power."]}, "3": {"skill_focus": "friendliness and respectful tone", "reason": "Improving your friendliness and respectful tone is essential for building positive relationships and effective communication with others.", "exercises": ["Practice using positive affirmations in conversations, such as 'That's a great point!' or 'I appreciate your perspective.'", "Engage in active listening by summarizing what the other person has said before responding, ensuring they feel heard and valued.", "Write a short dialogue where you respond to different scenarios with a friendly and respectful tone, focusing on word choice and phrasing."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 3, "extraversion": 6, "agreeableness": 7, "conscientiousness": 9}, "openning": "Hi there! I hope you're having a wonderful day! What have you been up to lately?", "follow-ups": ["That's really interesting! Can you tell me more about that? I love hearing different viewpoints.", "I appreciate you sharing that with me. How do you feel about the situation?"]}, "difficulty-upgrade": ["Incorporate a time limit for responses to encourage quick thinking while maintaining a friendly tone.", "Introduce a challenging scenario where the other person is upset or frustrated, requiring you to respond with extra care and respect."]}, "4": {"skill_focus": "friendliness and respectful tone", "reason": "Improving your friendliness and respectful tone is essential for building positive relationships and effective communication with others.", "exercises": ["Practice using positive affirmations in conversations, such as 'That's a great point!' or 'I appreciate your perspective.'", "Engage in active listening by summarizing what the other person has said before responding, ensuring they feel heard and valued.", "Write a short dialogue where you respond to different scenarios with a friendly and respectful tone, focusing on word choice and phrasing."], "scenario_stub": {"persona": {"openness": 6, "neuroticism": 5, "extraversion": 6, "agreeableness": 7, "conscientiousness": 9}, "openning": "Hi there! I hope you're having a wonderful day!", "follow-ups": ["What do you think about this idea? I really value your opinion!", "I appreciate your thoughts on this; could you share more about your perspective?"]}, "difficulty-upgrade": ["Incorporate a time limit for responses to encourage quick thinking while maintaining a friendly tone.", "Introduce a scenario where the other person is upset or frustrated, requiring you to respond with extra care and respect."]}, "5": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.", "exercises": ["Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.", "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.", "Practice delivering a call to action in a mock presentation, focusing on clarity and enthusiasm."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 3, "extraversion": 6, "agreeableness": 5, "conscientiousness": 8}, "openning": "Hey there! I just came across this amazing product that I think could really change your life. Have you heard about it?", "follow-ups": ["What do you think would be the best way to encourage someone to try it out?", "If you were to convince a friend to buy it, what would you say to make it irresistible?"]}, "difficulty-upgrade": ["Incorporate a time limit for each call to action you create, forcing you to think quickly and effectively.", "Challenge yourself to use different mediums (e.g., social media post, email, verbal pitch) for your calls to action, adapting your style accordingly."]}, "6": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.", "exercises": ["Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.", "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.", "Practice delivering a call to action in a mock conversation, focusing on clarity and persuasion."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 3, "extraversion": 6, "agreeableness": 5, "conscientiousness": 8}, "openning": "Hey there! I just came across this amazing product that I think could really help you. Have you heard about it?", "follow-ups": ["What do you think would be the best way to encourage someone to try it out?", "If you were to convince a friend to buy it, what would you say to make it irresistible?"]}, "difficulty-upgrade": ["Incorporate a time limit for delivering your call to action to simulate real-life pressure.", "Add a requirement to use persuasive language techniques, such as urgency or exclusivity, in your calls to action."]}, "7": {"skill_focus": "clarity and enthusiasm in pitch", "reason": "Improving clarity and enthusiasm in your pitch is crucial for effectively communicating your ideas and engaging your audience, which can lead to better outcomes in both personal and professional settings.", "exercises": ["Practice delivering a short pitch (1-2 minutes) about a topic you love, focusing on clear articulation and expressing enthusiasm through your tone and body language.", "Record yourself giving a pitch and listen to it, noting areas where your clarity or enthusiasm could improve, then re-record it with those improvements in mind.", "Engage in a mock pitch session with a friend or family member, asking them to provide feedback specifically on your clarity and enthusiasm."], "scenario_stub": {"persona": {"openness": 8, "neuroticism": 2, "extraversion": 8, "agreeableness": 9, "conscientiousness": 7}, "openning": "Hi there! I'm really excited to share my latest project with you. It's something I'm passionate about and I think you'll find it interesting!", "follow-ups": ["What do you think about the main idea? I really believe it can make a difference!", "Can you see how this could be beneficial? I'm eager to hear your thoughts!"]}, "difficulty-upgrade": ["Introduce a time limit for your pitch to encourage concise clarity.", "Add a requirement to answer questions immediately after your pitch to test your ability to maintain clarity and enthusiasm under pressure."]}, "8": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps. This skill can significantly enhance your communication effectiveness and influence.", "exercises": ["Identify three examples of effective calls to action from your favorite content (articles, ads, etc.) and analyze what makes them compelling.", "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.", "Practice delivering a call to action in a mock presentation, focusing on clarity and enthusiasm."], "scenario_stub": {"persona": {"openness": 8, "neuroticism": 2, "extraversion": 8, "agreeableness": 9, "conscientiousness": 7}, "openning": "Hey there! I just came across this amazing product that I think could really change your life. Have you heard about it?", "follow-ups": ["What do you think would be the best way to encourage someone to try it out?", "If you were to convince a friend to buy it, what would you say to make it irresistible?"]}, "difficulty-upgrade": ["Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.", "Add a requirement to include a specific benefit or statistic that supports your call to action."]}, "9": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in conversation or written communication.", "exercises": ["Identify three examples of effective calls to action from your favorite content (articles, ads, etc.) and analyze what makes them compelling.", "Write five different calls to action for a product or service you like, varying the tone and style to see which resonates best.", "Practice delivering a call to action in a mock conversation, focusing on clarity and urgency."], "scenario_stub": {"persona": {"openness": 8, "neuroticism": 3, "extraversion": 9, "agreeableness": 9, "conscientiousness": 5}, "openning": "Hey there! I just discovered this amazing product that I think you would love. Have you heard about it?", "follow-ups": ["What do you think would be the best way to encourage someone to try it out?", "If you were to convince a friend to buy it, what would you say to make it irresistible?"]}, "difficulty-upgrade": ["Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.", "Add a requirement to include a specific benefit or feature of the product in your call to action to make it more persuasive."]}, "10": {"skill_focus": "friendliness and respectful tone", "reason": "Improving your friendliness and respectful tone is essential for building positive relationships and effective communication, which can enhance your interactions both personally and professionally.", "exercises": ["Practice greeting someone with a warm and friendly tone, using their name if possible.", "Write a short message or email to a friend or colleague, focusing on using polite and friendly language throughout.", "Roleplay a conversation where you express appreciation or gratitude, ensuring your tone conveys warmth and respect."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 4, "extraversion": 5, "agreeableness": 6, "conscientiousness": 7}, "openning": "Hi there! It's great to see you! How have you been?", "follow-ups": ["I really appreciate your input on this project; it means a lot to me!", "What do you think about this idea? I value your opinion and would love to hear your thoughts."]}, "difficulty-upgrade": ["Incorporate a time constraint where you have to respond within a minute to simulate real-life pressure.", "Add a requirement to use at least three different friendly phrases or expressions in your responses."]}, "11": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or speaking.", "exercises": ["Identify three examples of strong calls to action from your favorite articles or ads and analyze what makes them effective.", "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.", "Practice delivering a call to action in a mock presentation, focusing on clarity and persuasion."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 3, "extraversion": 6, "agreeableness": 5, "conscientiousness": 8}, "openning": "Hey there! I just read an amazing article about productivity tips, and I think you should check it out!", "follow-ups": ["What do you think would be the best way to encourage others to try these tips?", "If you had to convince someone to take action right now, what would you say?"]}, "difficulty-upgrade": ["Incorporate a time limit for crafting your calls to action to simulate real-time pressure.", "Add a requirement to use persuasive language techniques, such as urgency or exclusivity, in your calls to action."]}, "12": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.", "exercises": ["Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.", "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.", "Practice delivering a call to action in a mock presentation, focusing on clarity and enthusiasm."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 3, "extraversion": 6, "agreeableness": 5, "conscientiousness": 8}, "openning": "Hey there! I just came across this amazing product that I think could really help you. Have you heard about it?", "follow-ups": ["What do you think would be the best way to encourage someone to try it out?", "If you were to convince a friend to buy it, what would you say to make it irresistible?"]}, "difficulty-upgrade": ["Incorporate a time limit for each call to action you create, forcing you to think quickly and effectively.", "Challenge yourself to use different mediums (e.g., social media post, email, verbal pitch) for your calls to action, adapting your style accordingly."]}, "13": {"skill_focus": "active listening and objection handling", "reason": "Improving your active listening and objection handling skills is crucial for effective communication and building rapport with others, especially in challenging conversations.", "exercises": ["Practice summarizing what someone has said after they finish speaking to ensure understanding.", "Engage in a conversation where you intentionally ask clarifying questions to demonstrate active listening.", "Role-play a scenario where you must handle objections by acknowledging the other person's concerns before responding."], "scenario_stub": {"persona": {"openness": 6, "neuroticism": 5, "extraversion": 4, "agreeableness": 4, "conscientiousness": 8}, "openning": "I appreciate your perspective on this topic. Can you tell me more about your thoughts?", "follow-ups": ["I hear what you're saying, but can you clarify what you mean by that?", "I understand your concern, but have you considered this alternative viewpoint?"]}, "difficulty-upgrade": ["Incorporate time constraints where you must respond within a limited time frame to simulate real-life pressure.", "Add a requirement to use specific phrases or techniques for objection handling, such as 'I understand that...' or 'That's a valid point because...'"]}, "14": {"skill_focus": "friendliness and respectful tone", "reason": "Improving your friendliness and respectful tone is essential for building better relationships and fostering positive interactions with others.", "exercises": ["Practice using positive affirmations in conversations, such as complimenting someone's idea or effort.", "Engage in active listening by summarizing what the other person has said before responding, ensuring they feel heard and valued.", "Incorporate more open-ended questions in your dialogues to encourage others to share their thoughts and feelings."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 3, "extraversion": 4, "agreeableness": 6, "conscientiousness": 8}, "openning": "Hi there! I really enjoyed our last conversation about books. What have you been reading lately?", "follow-ups": ["That's interesting! What did you like most about that book?", "I appreciate you sharing that. How did it make you feel when you read it?"]}, "difficulty-upgrade": ["Limit your responses to only positive or constructive feedback for a set period of time.", "Incorporate a time constraint where you must respond within a minute, focusing on maintaining a friendly tone under pressure."]}, "15": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.", "exercises": ["Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.", "Write five different calls to action for a fictional product, varying the tone and urgency to see how it affects the message.", "Practice delivering a call to action in a mock presentation, focusing on clarity and persuasion."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 4, "extraversion": 5, "agreeableness": 4, "conscientiousness": 8}, "openning": "Hey there! I just came across this amazing product that I think could really help you. Have you heard about it?", "follow-ups": ["What do you think would be the best way to encourage someone to try it out?", "If you were to convince a friend to buy it, what would you say to make it irresistible?"]}, "difficulty-upgrade": ["Incorporate a time limit for each call to action you create, forcing you to think quickly and effectively.", "Challenge yourself to use different mediums (e.g., social media post, email, verbal pitch) for your calls to action, adapting your style accordingly."]}, "16": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in conversation or written communication.", "exercises": ["Identify three examples of effective calls to action from your favorite content (articles, ads, etc.) and analyze what makes them compelling.", "Write five different calls to action for a product or service you like, varying the tone and style to see which resonates best.", "Practice delivering a call to action in a mock conversation, focusing on clarity and urgency."], "scenario_stub": {"persona": {"openness": 7, "neuroticism": 5, "extraversion": 9, "agreeableness": 8, "conscientiousness": 6}, "openning": "Hey there! I just discovered this amazing product that I think could really help you. Have you heard about it?", "follow-ups": ["What do you think would be the best way to encourage someone to try it out?", "If you were to convince a friend to buy it, what would you say to make it irresistible?"]}, "difficulty-upgrade": ["Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.", "Add a requirement to include a specific benefit or statistic that supports your call to action."]}, "17": {"skill_focus": "active listening and objection handling", "reason": "Improving active listening and objection handling is crucial for effective communication and building rapport with others, which can enhance your personal and professional relationships.", "exercises": ["Practice summarizing what someone has said after they finish speaking, ensuring you capture their main points accurately.", "Engage in a conversation where you intentionally ask open-ended questions to encourage the other person to elaborate on their thoughts.", "Role-play a scenario where you must respond to objections or concerns, focusing on validating the other person's feelings before addressing their points."], "scenario_stub": {"persona": {"openness": 6, "neuroticism": 4, "extraversion": 5, "agreeableness": 8, "conscientiousness": 6}, "openning": "Hi there! I\u2019d love to hear your thoughts on our recent project. What do you think about the direction we're taking?", "follow-ups": ["I understand you have some concerns about the timeline. Can you share more about what specifically worries you?", "That's an interesting point! How do you think we could address the challenges you've mentioned?"]}, "difficulty-upgrade": ["Incorporate a time limit for responses to simulate a more dynamic conversation environment.", "Introduce a scenario where the other person is intentionally being vague or defensive, requiring you to dig deeper to understand their perspective."]}, "18": {"skill_focus": "effective call to action", "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.", "exercises": ["Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.", "Write five different calls to action for a product or service you enjoy, varying the tone and style to see which resonates best.", "Practice delivering a call to action in a mock presentation, focusing on clarity and urgency."], "scenario_stub": {"persona": {"openness": 8, "neuroticism": 2, "extraversion": 8, "agreeableness": 9, "conscientiousness": 7}, "openning": "Hey there! I just read something really interesting that I think you should check out!", "follow-ups": ["What do you think about this idea? I really believe it could make a difference for you!", "If you're interested, I can send you the link right now so you can dive deeper into it!"]}, "difficulty-upgrade": ["Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.", "Add a requirement to tailor your call to action for different audiences, such as a professional setting versus a casual one."]}}
+{
+    "0": {
+        "skill_focus": "friendliness and respectful tone",
+        "reason": "Improving your friendliness and respectful tone is essential for building better relationships and fostering positive interactions with others.",
+        "exercises": [
+            "Practice using positive affirmations in your conversations. For example, start a sentence with 'I appreciate...' or 'I really value...'.",
+            "Engage in a daily gratitude exercise where you express thanks to someone for something specific they did, even if it's small.",
+            "Record yourself speaking on a topic for 2 minutes, focusing on using a warm and friendly tone, then listen back to identify areas for improvement."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 6,
+                "neuroticism": 5,
+                "extraversion": 4,
+                "agreeableness": 5,
+                "conscientiousness": 9
+            },
+            "openning": "Hi there! I hope you're having a great day! What have you been up to lately?",
+            "follow-ups": [
+                "That's interesting! I really admire how you approached that situation. Can you tell me more about it?",
+                "I appreciate your perspective on this. How do you feel about the challenges you've faced?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for responses to encourage quick thinking while maintaining a friendly tone.",
+            "Add a requirement to use at least one compliment or positive remark in every interaction."
+        ]
+    },
+    "1": {
+        "skill_focus": "friendliness and respectful tone",
+        "reason": "Improving your friendliness and respectful tone is essential for building better relationships and fostering positive interactions with others.",
+        "exercises": [
+            "Practice using positive affirmations in conversations, such as 'That's a great point!' or 'I appreciate your perspective.'",
+            "Engage in a daily gratitude exercise where you express appreciation for someone in your life, focusing on how to convey it warmly.",
+            "Record yourself reading a friendly script and listen to it, paying attention to your tone and warmth."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 6,
+                "neuroticism": 5,
+                "extraversion": 4,
+                "agreeableness": 5,
+                "conscientiousness": 9
+            },
+            "openning": "Hi there! I hope you're having a wonderful day!",
+            "follow-ups": [
+                "What do you think about this idea? I\u2019d love to hear your thoughts!",
+                "I really value your opinion, could you share more about your perspective?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate humor into your responses to make them more engaging and friendly.",
+            "Limit your responses to only positive or constructive feedback to encourage a respectful tone."
+        ]
+    },
+    "2": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.",
+            "Write five different calls to action for a fictional product, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and persuasion."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 8,
+                "neuroticism": 3,
+                "extraversion": 9,
+                "agreeableness": 8,
+                "conscientiousness": 6
+            },
+            "openning": "Hey there! I just came across this amazing product that I think could really change your life. Have you heard about it?",
+            "follow-ups": [
+                "What do you think would be the best way to encourage someone to try it out?",
+                "If you were to convince a friend to buy it, what would you say to make it irresistible?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for delivering your call to action to simulate real-life pressure.",
+            "Add a requirement to include a specific benefit or statistic in your call to action to enhance its persuasive power."
+        ]
+    },
+    "3": {
+        "skill_focus": "friendliness and respectful tone",
+        "reason": "Improving your friendliness and respectful tone is essential for building positive relationships and effective communication with others.",
+        "exercises": [
+            "Practice using positive affirmations in conversations, such as 'That's a great point!' or 'I appreciate your perspective.'",
+            "Engage in active listening by summarizing what the other person has said before responding, ensuring they feel heard and valued.",
+            "Write a short dialogue where you respond to different scenarios with a friendly and respectful tone, focusing on word choice and phrasing."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 3,
+                "extraversion": 6,
+                "agreeableness": 7,
+                "conscientiousness": 9
+            },
+            "openning": "Hi there! I hope you're having a wonderful day! What have you been up to lately?",
+            "follow-ups": [
+                "That's really interesting! Can you tell me more about that? I love hearing different viewpoints.",
+                "I appreciate you sharing that with me. How do you feel about the situation?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for responses to encourage quick thinking while maintaining a friendly tone.",
+            "Introduce a challenging scenario where the other person is upset or frustrated, requiring you to respond with extra care and respect."
+        ]
+    },
+    "4": {
+        "skill_focus": "friendliness and respectful tone",
+        "reason": "Improving your friendliness and respectful tone is essential for building positive relationships and effective communication with others.",
+        "exercises": [
+            "Practice using positive affirmations in conversations, such as 'That's a great point!' or 'I appreciate your perspective.'",
+            "Engage in active listening by summarizing what the other person has said before responding, ensuring they feel heard and valued.",
+            "Write a short dialogue where you respond to different scenarios with a friendly and respectful tone, focusing on word choice and phrasing."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 6,
+                "neuroticism": 5,
+                "extraversion": 6,
+                "agreeableness": 7,
+                "conscientiousness": 9
+            },
+            "openning": "Hi there! I hope you're having a wonderful day!",
+            "follow-ups": [
+                "What do you think about this idea? I really value your opinion!",
+                "I appreciate your thoughts on this; could you share more about your perspective?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for responses to encourage quick thinking while maintaining a friendly tone.",
+            "Introduce a scenario where the other person is upset or frustrated, requiring you to respond with extra care and respect."
+        ]
+    },
+    "5": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and enthusiasm."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 3,
+                "extraversion": 6,
+                "agreeableness": 5,
+                "conscientiousness": 8
+            },
+            "openning": "Hey there! I just came across this amazing product that I think could really change your life. Have you heard about it?",
+            "follow-ups": [
+                "What do you think would be the best way to encourage someone to try it out?",
+                "If you were to convince a friend to buy it, what would you say to make it irresistible?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for each call to action you create, forcing you to think quickly and effectively.",
+            "Challenge yourself to use different mediums (e.g., social media post, email, verbal pitch) for your calls to action, adapting your style accordingly."
+        ]
+    },
+    "6": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock conversation, focusing on clarity and persuasion."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 3,
+                "extraversion": 6,
+                "agreeableness": 5,
+                "conscientiousness": 8
+            },
+            "openning": "Hey there! I just came across this amazing product that I think could really help you. Have you heard about it?",
+            "follow-ups": [
+                "What do you think would be the best way to encourage someone to try it out?",
+                "If you were to convince a friend to buy it, what would you say to make it irresistible?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for delivering your call to action to simulate real-life pressure.",
+            "Add a requirement to use persuasive language techniques, such as urgency or exclusivity, in your calls to action."
+        ]
+    },
+    "7": {
+        "skill_focus": "clarity and enthusiasm in pitch",
+        "reason": "Improving clarity and enthusiasm in your pitch is crucial for effectively communicating your ideas and engaging your audience, which can lead to better outcomes in both personal and professional settings.",
+        "exercises": [
+            "Practice delivering a short pitch (1-2 minutes) about a topic you love, focusing on clear articulation and expressing enthusiasm through your tone and body language.",
+            "Record yourself giving a pitch and listen to it, noting areas where your clarity or enthusiasm could improve, then re-record it with those improvements in mind.",
+            "Engage in a mock pitch session with a friend or family member, asking them to provide feedback specifically on your clarity and enthusiasm."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 8,
+                "neuroticism": 2,
+                "extraversion": 8,
+                "agreeableness": 9,
+                "conscientiousness": 7
+            },
+            "openning": "Hi there! I'm really excited to share my latest project with you. It's something I'm passionate about and I think you'll find it interesting!",
+            "follow-ups": [
+                "What do you think about the main idea? I really believe it can make a difference!",
+                "Can you see how this could be beneficial? I'm eager to hear your thoughts!"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Introduce a time limit for your pitch to encourage concise clarity.",
+            "Add a requirement to answer questions immediately after your pitch to test your ability to maintain clarity and enthusiasm under pressure."
+        ]
+    },
+    "8": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps. This skill can significantly enhance your communication effectiveness and influence.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite content (articles, ads, etc.) and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and enthusiasm."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 8,
+                "neuroticism": 2,
+                "extraversion": 8,
+                "agreeableness": 9,
+                "conscientiousness": 7
+            },
+            "openning": "Hey there! I just came across this amazing product that I think could really change your life. Have you heard about it?",
+            "follow-ups": [
+                "What do you think would be the best way to encourage someone to try it out?",
+                "If you were to convince a friend to buy it, what would you say to make it irresistible?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.",
+            "Add a requirement to include a specific benefit or statistic that supports your call to action."
+        ]
+    },
+    "9": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in conversation or written communication.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite content (articles, ads, etc.) and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you like, varying the tone and style to see which resonates best.",
+            "Practice delivering a call to action in a mock conversation, focusing on clarity and urgency."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 8,
+                "neuroticism": 3,
+                "extraversion": 9,
+                "agreeableness": 9,
+                "conscientiousness": 5
+            },
+            "openning": "Hey there! I just discovered this amazing product that I think you would love. Have you heard about it?",
+            "follow-ups": [
+                "What do you think would be the best way to encourage someone to try it out?",
+                "If you were to convince a friend to buy it, what would you say to make it irresistible?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.",
+            "Add a requirement to include a specific benefit or feature of the product in your call to action to make it more persuasive."
+        ]
+    },
+    "10": {
+        "skill_focus": "friendliness and respectful tone",
+        "reason": "Improving your friendliness and respectful tone is essential for building positive relationships and effective communication, which can enhance your interactions both personally and professionally.",
+        "exercises": [
+            "Practice greeting someone with a warm and friendly tone, using their name if possible.",
+            "Write a short message or email to a friend or colleague, focusing on using polite and friendly language throughout.",
+            "Roleplay a conversation where you express appreciation or gratitude, ensuring your tone conveys warmth and respect."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 4,
+                "extraversion": 5,
+                "agreeableness": 6,
+                "conscientiousness": 7
+            },
+            "openning": "Hi there! It's great to see you! How have you been?",
+            "follow-ups": [
+                "I really appreciate your input on this project; it means a lot to me!",
+                "What do you think about this idea? I value your opinion and would love to hear your thoughts."
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time constraint where you have to respond within a minute to simulate real-life pressure.",
+            "Add a requirement to use at least three different friendly phrases or expressions in your responses."
+        ]
+    },
+    "11": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or speaking.",
+        "exercises": [
+            "Identify three examples of strong calls to action from your favorite articles or ads and analyze what makes them effective.",
+            "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and persuasion."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 3,
+                "extraversion": 6,
+                "agreeableness": 5,
+                "conscientiousness": 8
+            },
+            "openning": "Hey there! I just read an amazing article about productivity tips, and I think you should check it out!",
+            "follow-ups": [
+                "What do you think would be the best way to encourage others to try these tips?",
+                "If you had to convince someone to take action right now, what would you say?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for crafting your calls to action to simulate real-time pressure.",
+            "Add a requirement to use persuasive language techniques, such as urgency or exclusivity, in your calls to action."
+        ]
+    },
+    "12": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you like, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and enthusiasm."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 3,
+                "extraversion": 6,
+                "agreeableness": 5,
+                "conscientiousness": 8
+            },
+            "openning": "Hey there! I just came across this amazing product that I think could really help you. Have you heard about it?",
+            "follow-ups": [
+                "What do you think would be the best way to encourage someone to try it out?",
+                "If you were to convince a friend to buy it, what would you say to make it irresistible?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for each call to action you create, forcing you to think quickly and effectively.",
+            "Challenge yourself to use different mediums (e.g., social media post, email, verbal pitch) for your calls to action, adapting your style accordingly."
+        ]
+    },
+    "13": {
+        "skill_focus": "active listening and objection handling",
+        "reason": "Improving your active listening and objection handling skills is crucial for effective communication and building rapport with others, especially in challenging conversations.",
+        "exercises": [
+            "Practice summarizing what someone has said after they finish speaking to ensure understanding.",
+            "Engage in a conversation where you intentionally ask clarifying questions to demonstrate active listening.",
+            "Role-play a scenario where you must handle objections by acknowledging the other person's concerns before responding."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 6,
+                "neuroticism": 5,
+                "extraversion": 4,
+                "agreeableness": 4,
+                "conscientiousness": 8
+            },
+            "openning": "I appreciate your perspective on this topic. Can you tell me more about your thoughts?",
+            "follow-ups": [
+                "I hear what you're saying, but can you clarify what you mean by that?",
+                "I understand your concern, but have you considered this alternative viewpoint?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate time constraints where you must respond within a limited time frame to simulate real-life pressure.",
+            "Add a requirement to use specific phrases or techniques for objection handling, such as 'I understand that...' or 'That's a valid point because...'"
+        ]
+    },
+    "14": {
+        "skill_focus": "friendliness and respectful tone",
+        "reason": "Improving your friendliness and respectful tone is essential for building better relationships and fostering positive interactions with others.",
+        "exercises": [
+            "Practice using positive affirmations in conversations, such as complimenting someone's idea or effort.",
+            "Engage in active listening by summarizing what the other person has said before responding, ensuring they feel heard and valued.",
+            "Incorporate more open-ended questions in your dialogues to encourage others to share their thoughts and feelings."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 3,
+                "extraversion": 4,
+                "agreeableness": 6,
+                "conscientiousness": 8
+            },
+            "openning": "Hi there! I really enjoyed our last conversation about books. What have you been reading lately?",
+            "follow-ups": [
+                "That's interesting! What did you like most about that book?",
+                "I appreciate you sharing that. How did it make you feel when you read it?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Limit your responses to only positive or constructive feedback for a set period of time.",
+            "Incorporate a time constraint where you must respond within a minute, focusing on maintaining a friendly tone under pressure."
+        ]
+    },
+    "15": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.",
+            "Write five different calls to action for a fictional product, varying the tone and urgency to see how it affects the message.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and persuasion."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 4,
+                "extraversion": 5,
+                "agreeableness": 4,
+                "conscientiousness": 8
+            },
+            "openning": "Hey there! I just came across this amazing product that I think could really help you. Have you heard about it?",
+            "follow-ups": [
+                "What do you think would be the best way to encourage someone to try it out?",
+                "If you were to convince a friend to buy it, what would you say to make it irresistible?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for each call to action you create, forcing you to think quickly and effectively.",
+            "Challenge yourself to use different mediums (e.g., social media post, email, verbal pitch) for your calls to action, adapting your style accordingly."
+        ]
+    },
+    "16": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in conversation or written communication.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite content (articles, ads, etc.) and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you like, varying the tone and style to see which resonates best.",
+            "Practice delivering a call to action in a mock conversation, focusing on clarity and urgency."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 7,
+                "neuroticism": 5,
+                "extraversion": 9,
+                "agreeableness": 8,
+                "conscientiousness": 6
+            },
+            "openning": "Hey there! I just discovered this amazing product that I think could really help you. Have you heard about it?",
+            "follow-ups": [
+                "What do you think would be the best way to encourage someone to try it out?",
+                "If you were to convince a friend to buy it, what would you say to make it irresistible?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.",
+            "Add a requirement to include a specific benefit or statistic that supports your call to action."
+        ]
+    },
+    "17": {
+        "skill_focus": "active listening and objection handling",
+        "reason": "Improving active listening and objection handling is crucial for effective communication and building rapport with others, which can enhance your personal and professional relationships.",
+        "exercises": [
+            "Practice summarizing what someone has said after they finish speaking, ensuring you capture their main points accurately.",
+            "Engage in a conversation where you intentionally ask open-ended questions to encourage the other person to elaborate on their thoughts.",
+            "Role-play a scenario where you must respond to objections or concerns, focusing on validating the other person's feelings before addressing their points."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 6,
+                "neuroticism": 4,
+                "extraversion": 5,
+                "agreeableness": 8,
+                "conscientiousness": 6
+            },
+            "openning": "Hi there! I\u2019d love to hear your thoughts on our recent project. What do you think about the direction we're taking?",
+            "follow-ups": [
+                "I understand you have some concerns about the timeline. Can you share more about what specifically worries you?",
+                "That's an interesting point! How do you think we could address the challenges you've mentioned?"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time limit for responses to simulate a more dynamic conversation environment.",
+            "Introduce a scenario where the other person is intentionally being vague or defensive, requiring you to dig deeper to understand their perspective."
+        ]
+    },
+    "18": {
+        "skill_focus": "effective call to action",
+        "reason": "Improving your ability to create effective calls to action is crucial for engaging your audience and driving them to take the desired steps, whether in writing or conversation.",
+        "exercises": [
+            "Identify three examples of effective calls to action from your favorite articles or ads and analyze what makes them compelling.",
+            "Write five different calls to action for a product or service you enjoy, varying the tone and style to see which resonates best.",
+            "Practice delivering a call to action in a mock presentation, focusing on clarity and urgency."
+        ],
+        "scenario_stub": {
+            "persona": {
+                "openness": 8,
+                "neuroticism": 2,
+                "extraversion": 8,
+                "agreeableness": 9,
+                "conscientiousness": 7
+            },
+            "openning": "Hey there! I just read something really interesting that I think you should check out!",
+            "follow-ups": [
+                "What do you think about this idea? I really believe it could make a difference for you!",
+                "If you're interested, I can send you the link right now so you can dive deeper into it!"
+            ]
+        },
+        "difficulty-upgrade": [
+            "Incorporate a time constraint where you have to deliver your call to action in under 30 seconds.",
+            "Add a requirement to tailor your call to action for different audiences, such as a professional setting versus a casual one."
+        ]
+    }
+}
