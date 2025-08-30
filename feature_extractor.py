@@ -75,7 +75,7 @@ class Feature_Extractor:
         
         return llm_feats
     
-    def extract_rubric_vector(self, simulation):
+    def extract_rubric_vector(self, simulation: dict) -> np.array:
         scores = []
 
         criteria = simulation["assessment_data"]["criteria"]
@@ -92,7 +92,7 @@ def main():
 
     data = read_json_file('data/sanitized-sample.json')
 
-    extractor = Feature_Extractor(simulation=data[1])
+    extractor = Feature_Extractor()
 
     llm = OpenAI_LLM()
 
@@ -101,7 +101,7 @@ def main():
 
     # feats = extractor.extract_llm_feats(llm=llm, instruction=instruction, output_format=output_format)
 
-    print(extractor.extract_rubric_vector())
+    print(extractor._extract_conversation(data[1]))
 
     return 
 

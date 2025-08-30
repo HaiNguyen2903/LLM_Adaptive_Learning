@@ -1,0 +1,72 @@
+{
+    "type": "json_schema",
+    "json_schema": {
+        "name": "AdaptiveLearningOutput",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "skill_focus": {
+                "type": "string",
+                "description": "The weak skill that the LLM should focus on."
+                },
+                "reason": {
+                "type": "string",
+                "description": "Reason why this skill needs improvement."
+                },
+                "exercises": {
+                "type": "array",
+                "description": "List of 3 micro exercises to strengthen the skill.",
+                "items": {
+                    "type": "string"
+                },
+                "minItems": 3,
+                "maxItems": 3
+                },
+                "scenario_stub": {
+                "type": "object",
+                "description": "Roleplay scenario designed to practice the skill.",
+                "properties": {
+                    "persona": {
+                    "type": "object",
+                    "description": "Personality traits of the LLM in this roleplay.",
+                    "properties": {
+                        "openness": { "type": "integer", "minimum": 1, "maximum": 10 },
+                        "neuroticism": { "type": "integer", "minimum": 1, "maximum": 10 },
+                        "extraversion": { "type": "integer", "minimum": 1, "maximum": 10 },
+                        "agreeableness": { "type": "integer", "minimum": 1, "maximum": 10 },
+                        "conscientiousness": { "type": "integer", "minimum": 1, "maximum": 10 }
+                    },
+                    "required": ["openness", "neuroticism", "extraversion", "agreeableness", "conscientiousness"],
+                    "additionalProperties": false
+                    },
+                    "openning": {
+                    "type": "string",
+                    "description": "Opening chat line to begin the scenario."
+                    },
+                    "follow-ups": {
+                    "type": "array",
+                    "description": "Two follow-up lines that stress and enhance the weak skill.",
+                    "items": { "type": "string" },
+                    "minItems": 2,
+                    "maxItems": 2
+                    }
+                },
+                "required": ["persona", "openning", "follow-ups"],
+                "additionalProperties": false
+                },
+                "difficulty-upgrade": {
+                "type": "array",
+                "description": "List of 2 difficulty-enhancing features for the exercise.",
+                "items": {
+                    "type": "string"
+                },
+                "minItems": 2,
+                "maxItems": 2
+                }
+            },
+            "required": ["skill_focus", "reason", "exercises", "scenario_stub", "difficulty-upgrade"],
+            "additionalProperties": false
+        },
+        "strict": true
+    }
+}

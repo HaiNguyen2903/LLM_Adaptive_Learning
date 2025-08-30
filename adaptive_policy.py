@@ -85,7 +85,11 @@ if __name__ == "__main__":
 
     dim = 6
 
-    action_space = {0: 'clarity', 1: 'active_listening', 2: 'call_to_action', 3: 'friendliness'}
+    action_space = {0: 'clarity and enthusiasm in pitch', 
+                    1: 'active listening and objection handling', 
+                    2: 'effective call to action', 
+                    3: 'friendliness and respectful tone'}
+
     true_thetas = [np.random.randn(dim) for _ in range(len(action_space))]  # Hidden true params for simulation
 
     data = read_json_file('data/sanitized-sample.json')

@@ -1,7 +1,7 @@
 import openai 
 from dotenv import load_dotenv
 import os
-from utils import read_json_file
+from utils import read_json_file, read_text_file
 import json
 
 class OpenAI_LLM:
@@ -32,12 +32,35 @@ class OpenAI_LLM:
 def main():
     load_dotenv()
 
-    # llm = OpenAI_LLM()
+    llm = OpenAI_LLM()
     # print(llm.client)
 
     # print(os.getenv('t'))
 
-    format = read_json_file('response_formats/generate_llm_feats.json')
+    name = 'generate_adapt_coach'
+
+    # format = read_json_file('response_formats/generate_coaching_card.json')
+    # prompt = read_text_file('prompts/generate_coaching_card.txt')
+
+    format = read_json_file(f'response_formats/{name}.json')
+    prompt = read_text_file(f'prompts/{name}.txt')
+
+    inputs = """
+    {
+        "llm_persona_personality_traits": {
+            "openness": 6,
+            "neuroticism": 3,
+            "extraversion": 5,
+            "agreeableness": 5,
+            "conscientiousness": 9
+        },
+        "weak_skill": "active listening",
+        "current_score": 50,
+    }
+    """
+    
+    res = llm.get_response(instruction=prompt, user_input=inputs, output_format=format)
+    print(res)
 
     return 
 

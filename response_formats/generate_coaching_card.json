@@ -1,0 +1,31 @@
+{
+    "type": "json_schema",
+    "json_schema": {
+        "name": "AdaptiveLearningOutput",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "skill_focus": {
+                    "type": "string",
+                    "description": "The weak skill that the LLM should focus on."
+                    },
+                "reason": {
+                    "type": "string",
+                    "description": "Reason why this skill needs improvement."
+                    },
+                "exercises": {
+                    "type": "array",
+                    "description": "List of 3 micro exercises to strengthen the skill.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 3,
+                    "maxItems": 3
+                    }
+            },
+            "required": ["skill_focus", "reason", "exercises"],
+            "additionalProperties": false
+        },
+        "strict": true
+    }
+}
